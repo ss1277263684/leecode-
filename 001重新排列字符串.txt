@@ -1,6 +1,0 @@
-JS:
-1、字符串的长度和数组长度是一致的，数组的元素与字符串的字符一一对应
-2、数组的值 为 对应字符 在新的字符串的序列号
-3、创建一个长度与数组相同的空数组（  自己：let newArray = [...oldArray]，更好：let newArray = new Array(oldArray.length)  )
-4、将 对应字符 放入 新的序列号中（for 循环，newArray(oldArray[i] = str[i]）
-5、在通过join("")得到重新排列的字符串
