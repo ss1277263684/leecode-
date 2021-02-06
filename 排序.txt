@@ -11,11 +11,10 @@
 
 002 判断字母异位
 	给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词
-
-	1、字母异位表明 两个字符串长度相同
-	2、s中的每一个字符都能在t中存在
-	3、将s的每个字符循环，在t中寻找是否存在该字符，不存在即不是异位词，存在就将t中查询的字符移除
-	4、循环完毕即异位词
+	
+	# len(t) == len(s), for ch in s, ch in t, complete loop => true else false
+	# len(s) == len(s), s/t => List, sort , join, s == t => true else false
+	
 
 003 距离顺序排列矩阵单元格
 	给出 R 行 C 列的矩阵，其中的单元格的整数坐标为 (r, c)，满足 0 <= r < R 且 0 <= c < C。
