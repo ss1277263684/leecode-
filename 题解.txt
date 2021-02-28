@@ -1,4 +1,4 @@
-001 重新排列字符串
+1528 重新排列字符串
 	给你一个字符串 s 和一个 长度相同 的整数数组 indices 。
 	请你重新排列字符串 s ，其中第 i 个字符需要移动到 indices[i] 指示的位置。
 	返回重新排列后的字符串。
@@ -8,15 +8,15 @@
 	3、创建一个长度与数组相同的空数组（  自己：let newArray = [...oldArray]，更好：let newArray = new Array(oldArray.length)  )
 	4、将 对应字符 放入 新的序列号中（for 循环，newArray(oldArray[i] = str[i]）
 	5、在通过join("")得到重新排列的字符串
+	
 
-002 判断字母异位
+242  判断字母异位
 	给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词
 	
 	# len(t) == len(s), for ch in s, ch in t, complete loop => true else false
 	# len(s) == len(s), s/t => List, sort , join, s == t => true else false
 	
-
-003 距离顺序排列矩阵单元格
+1030 距离顺序排列矩阵单元格
 	给出 R 行 C 列的矩阵，其中的单元格的整数坐标为 (r, c)，满足 0 <= r < R 且 0 <= c < C。
 	另外，我们在该矩阵中给出了一个坐标为 (r0, c0) 的单元格。
 	返回矩阵中的所有单元格的坐标，并按到 (r0, c0) 的距离从最小到最大的顺序排，
